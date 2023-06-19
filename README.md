@@ -1,5 +1,5 @@
 # DSA-Tries-StringSortingProblem
-A solution for the given String sorting problem. Trie data structure was used. 
+A solution for the given String sorting problem. **Trie data structure** was used. (R-Way Trie specifically*)
 
 In this question, you will implement a String sorting algorithm. You will be given two same length of arrays of String. The Strings of the second array will not contain duplicate characters. You will sort the first array based on the following rules.
 First, you need to find the distance between the Strings at the same index of the arrays. The distance calculation formula is:
@@ -27,15 +27,17 @@ ftrki olis cim ipgk\
 Sorted Array:\
 eforst aertw cink doze
 
-Subtasks for this problem:\
-1. First, the second array should be kept in a Trie structure. Such that the letter’s of each secondArray[i] should be put into a trie node.\
-2. Being even or odd of the distance between secondArray[i] and firstArray[i] must be decided.\
-3. Calculation of integer values of strings in both firstArray and secondArray must be done.\
-4. Calculate the distances between strings at the same index.\
-5. If the distance is even -> sort the firstArray based on the order of the secondArray.\
-6. If the distance is odd -> sort the firstArray lexicographically.\
-7. Also, handle unmatched characters.\
-8. Implement the main function in order to read inputs of arrays and model the second array by a trie structure.\
+**Subtasks for this problem:**
+1. First, the second array should be kept in a Trie structure. Such that the letter’s of each secondArray[i] should be put into a trie node.
+2. Being even or odd of the distance between secondArray[i] and firstArray[i] must be decided.
+3. Calculation of integer values of strings in both firstArray and secondArray must be done.
+4. Calculate the distances between strings at the same index.
+5. If the distance is even -> sort the firstArray based on the order of the secondArray.
+6. If the distance is odd -> sort the firstArray lexicographically.
+7. Also, handle unmatched characters.
+8. Implement the main function in order to read inputs of arrays and model the second array by a trie structure.
 9. Print the sorted first array.
+
+![ghub2](https://github.com/berkecemoktem/DSA-Tries-StringSortingProblem/assets/75270752/f2c0b8ed-b80f-4289-a757-44d84869ce88)
 
 
